@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .player {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .controls button {
+    margin: 10px;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    background: #e0e0e0;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .time {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  #playlist {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    max-height: 100px;
+    overflow-y: auto;
+  }
+  
+  #playlist li {
+    cursor: pointer;
+    padding: 6px;
+    border-bottom: 1px solid #ccc;
+  }
+  
